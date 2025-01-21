@@ -1,3 +1,3 @@
 # exzplanner
 
-A new Flutter project.
+This is a expense tracker with integrated OCR technology.
