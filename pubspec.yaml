@@ -1,0 +1,54 @@
+name: exzplanner
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.5.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+  font_awesome_flutter: ^10.8.0
+  image_picker: ^1.1.2
+  firebase_database: ^11.1.4
+  cloud_firestore: ^5.4.4
+  google_ml_kit: ^0.19.0
+  fl_chart: ^0.69.0
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  intl: ^0.19.0
+  http: ^1.2.2
+  google_maps_flutter: ^2.10.0
+  google_mlkit_text_recognition: ^0.14.0
+  geocoding: ^3.0.0
+  uuid: ^4.5.1
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+  cached_network_image: ^3.4.1
+  firebase_messaging: ^15.1.6
+  shared_preferences: ^2.3.4
+  syncfusion_flutter_charts: ^28.1.37
+  
+
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.2
+
+flutter_icons:  # This should be aligned with dev_dependencies and other top-level keys
+  image_path: "assets/exzplanner1.png" # Provide the path to your icon image
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/exzplanner.png
+    - assets/exzplanner1.png
+    - assets/
